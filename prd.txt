@@ -1,0 +1,646 @@
+Baik! Saya akan membuat **PRD (Product Requirements Document)** yang lengkap untuk landing page travel umroh dan haji. PRD ini siap untuk Anda berikan ke AI agent untuk diimplementasikan.
+
+---
+
+# **PRODUCT REQUIREMENTS DOCUMENT (PRD)**
+# **Landing Page Travel Umroh & Haji**
+
+## **1. OVERVIEW**
+
+**Product Name:** Landing Page Travel Umroh & Haji "Barokah Journey"  
+**Version:** 1.0  
+**Date:** November 2025  
+**Created By:** Product Design Team
+
+### **1.1 Purpose**
+Membuat landing page untuk travel umroh dan haji yang dapat mengkonversi pengunjung menjadi calon jamaah dengan menyajikan informasi lengkap, membangun trust, dan memudahkan proses pendaftaran.
+
+### **1.2 Target Audience**
+- Umur 25-65 tahun
+- Muslim yang ingin menunaikan ibadah umroh/haji
+- Income menengah ke atas
+- Familiar dengan teknologi digital
+- Mencari travel terpercaya dengan pelayanan terbaik
+
+---
+
+## **2. TECHNICAL REQUIREMENTS**
+
+### **2.1 Technology Stack**
+- **HTML5** (Semantic HTML)
+- **Tailwind CSS** (via CDN untuk styling)
+- **Vanilla JavaScript** (untuk interaktivity)
+- **Responsive Design** (Mobile-first approach)
+
+### **2.2 Browser Support**
+- Chrome (latest 2 versions)
+- Firefox (latest 2 versions)
+- Safari (latest 2 versions)
+- Edge (latest 2 versions)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+### **2.3 Performance Requirements**
+- Page load time: < 3 seconds
+- Mobile-friendly (responsive)
+- Lightweight (minimal external dependencies)
+- SEO-friendly structure
+
+---
+
+## **3. DESIGN SPECIFICATIONS**
+
+### **3.1 Color Palette**
+```
+Primary Color: #059669 (Green - Islamic theme)
+Secondary Color: #FCD34D (Gold - Premium feel)
+Accent Color: #DC2626 (Red - CTA buttons)
+Text Dark: #1F2937
+Text Light: #6B7280
+Background: #FFFFFF
+Background Light: #F9FAFB
+```
+
+### **3.2 Typography**
+- Font Family: 'Inter' or system fonts
+- Headings: Bold, 2xl-5xl sizes
+- Body: Regular, base-lg sizes
+- Arabic text: 'Amiri' or 'Scheherazade'
+
+### **3.3 Layout Structure**
+- Max width: 1280px (centered)
+- Padding: responsive (4-8 on mobile, 8-16 on desktop)
+- Grid system: Tailwind's grid utilities
+- Spacing: consistent 4-8-16-24 scale
+
+---
+
+## **4. SECTIONS & CONTENT REQUIREMENTS**
+
+### **SECTION 1: HEADER / NAVIGATION**
+
+**Requirements:**
+- Sticky navigation bar
+- Logo di kiri (text-based atau image placeholder)
+- Menu items: Beranda, Paket, Tentang Kami, Testimoni, Kontak
+- CTA button "Daftar Sekarang" di kanan
+- Mobile: Hamburger menu
+
+**Content:**
+```
+Logo: "Barokah Journey"
+Menu: [Beranda, Paket Umroh, Paket Haji, Tentang Kami, Testimoni, Kontak]
+CTA: "Daftar Sekarang"
+```
+
+---
+
+### **SECTION 2: HERO SECTION**
+
+**Requirements:**
+- Background: Gradient overlay dengan image placeholder (Masjidil Haram/Ka'bah)
+- Headline yang powerful
+- Sub-headline
+- 2 CTA buttons (Primary & Secondary)
+- Trust indicators (badge/icons)
+
+**Content:**
+```
+Headline: "Wujudkan Impian Ibadah Umroh & Haji Bersama Kami"
+
+Sub-headline: "Travel umroh dan haji terpercaya dengan lisensi resmi Kemenag. Fasilitas premium, pembimbing berpengalaman, dan pelayanan terbaik untuk perjalanan ibadah Anda."
+
+CTA Primary: "Lihat Paket Umroh" (scroll to packages)
+CTA Secondary: "Konsultasi Gratis" (open WhatsApp)
+
+Trust Badges:
+- ✓ Berizin Resmi Kemenag
+- ✓ Akreditasi A
+- ✓ 10.000+ Jamaah Terlayani
+- ✓ Hotel Bintang 5
+```
+
+---
+
+### **SECTION 3: KENAPA MEMILIH KAMI**
+
+**Requirements:**
+- 6 fitur unggulan dengan icon
+- Grid layout (2 kolom mobile, 3 kolom desktop)
+- Icon + Judul + Deskripsi singkat
+
+**Content:**
+```
+1. Icon: ✓ (Shield/Certificate)
+   Title: "Berizin Resmi"
+   Description: "Terdaftar resmi di Kemenag RI dengan nomor PPIU dan akreditasi A"
+
+2. Icon: ⭐ (Star)
+   Title: "Hotel Premium"
+   Description: "Hotel bintang 5 dekat Masjidil Haram & Masjid Nabawi"
+
+3. Icon: ✈️ (Plane)
+   Title: "Penerbangan Direct"
+   Description: "Penerbangan langsung tanpa transit untuk kenyamanan Anda"
+
+4. Icon: 👨‍🏫 (Teacher)
+   Title: "Pembimbing Profesional"
+   Description: "Ustadz berpengalaman lulusan Universitas Madinah & Al-Azhar"
+
+5. Icon: 💰 (Money)
+   Title: "Harga Terjangkau"
+   Description: "Paket mulai dari Rp 24 juta dengan sistem pembayaran fleksibel"
+
+6. Icon: 🛡️ (Protection)
+   Title: "Asuransi Perjalanan"
+   Description: "Perlindungan penuh selama perjalanan ibadah Anda"
+```
+
+---
+
+### **SECTION 4: PAKET UMROH**
+
+**Requirements:**
+- 3 paket pricing cards
+- Responsive grid (1 kolom mobile, 3 kolom desktop)
+- Highlight paket popular
+- List fitur dengan checkmark
+- CTA button per card
+
+**Content:**
+```
+PAKET 1: EKONOMIS
+Harga: "Rp 24.500.000"
+Durasi: "9 Hari"
+Badge: -
+Features:
+  ✓ Hotel bintang 3 (walking distance)
+  ✓ Penerbangan Saudi Airlines
+  ✓ Makan 3x sehari
+  ✓ Bus AC pariwisata
+  ✓ Perlengkapan ibadah
+  ✓ Manasik & bimbingan
+  ✓ Air Zam-zam 5L
+  ✓ City tour Madinah
+Button: "Pilih Paket"
+
+PAKET 2: PREMIUM (POPULAR)
+Harga: "Rp 35.000.000"
+Durasi: "12 Hari"
+Badge: "Paling Populer"
+Features:
+  ✓ Hotel bintang 5 (100m dari Masjid)
+  ✓ Penerbangan Garuda Indonesia
+  ✓ Makan 3x sehari (buffet)
+  ✓ Bus VIP Mercy
+  ✓ Perlengkapan ibadah premium
+  ✓ Manasik & bimbingan intensif
+  ✓ Air Zam-zam 10L
+  ✓ City tour Madinah & Makkah
+  ✓ Ziarah lengkap
+Button: "Pilih Paket"
+
+PAKET 3: VIP
+Harga: "Rp 48.000.000"
+Durasi: "14 Hari"
+Badge: -
+Features:
+  ✓ Hotel bintang 5 (view Ka'bah)
+  ✓ Penerbangan First Class
+  ✓ Makan 3x sehari (buffet premium)
+  ✓ Bus VIP Mercy (max 25 pax)
+  ✓ Koper & perlengkapan premium
+  ✓ Bimbingan pribadi
+  ✓ Air Zam-zam 20L
+  ✓ City tour & belanja eksklusif
+  ✓ Ziarah lengkap + Turki
+  ✓ Fast track bandara
+Button: "Pilih Paket"
+```
+
+---
+
+### **SECTION 5: PAKET HAJI**
+
+**Requirements:**
+- 2 paket haji cards
+- Similar layout dengan paket umroh
+- Emphasis pada perbedaan haji reguler vs haji plus
+
+**Content:**
+```
+PAKET 1: HAJI REGULER
+Harga: "Biaya Sesuai BPIH Kemenag"
+Durasi: "30-40 Hari"
+Info: "Sesuai kuota & jadwal pemerintah"
+Features:
+  ✓ Sesuai standar Kemenag
+  ✓ Pemondokan terdekat
+  ✓ Katering standar nasional
+  ✓ Pembimbing bersertifikat
+  ✓ Transportasi Arab Saudi
+  ✓ Perlengkapan haji
+  ✓ Manasik intensif
+Button: "Info Lebih Lanjut"
+
+PAKET 2: HAJI PLUS/KHUSUS
+Harga: "Mulai Rp 85.000.000"
+Durasi: "24 Hari"
+Info: "Waktu tunggu lebih singkat"
+Features:
+  ✓ Hotel bintang 5 dekat Masjid
+  ✓ Penerbangan premium
+  ✓ Makan 3x (menu bervariasi)
+  ✓ Bus VIP ber-AC
+  ✓ Pembimbing khusus (rasio kecil)
+  ✓ Perlengkapan premium
+  ✓ Manasik intensif + konseling
+  ✓ City tour & ziarah lengkap
+  ✓ Air Zam-zam 10L
+Button: "Hubungi Kami"
+```
+
+---
+
+### **SECTION 6: CARA KERJA / PROSES PENDAFTARAN**
+
+**Requirements:**
+- 4 steps dengan numbering
+- Icons untuk setiap step
+- Timeline/arrow connection (optional)
+- Mobile: vertical stack
+
+**Content:**
+```
+Heading: "Proses Pendaftaran Mudah"
+Subheading: "Hanya 4 langkah untuk mewujudkan impian ibadah Anda"
+
+STEP 1:
+Number: "01"
+Title: "Pilih Paket"
+Description: "Pilih paket umroh atau haji sesuai budget dan kebutuhan Anda"
+
+STEP 2:
+Number: "02"
+Title: "Konsultasi"
+Description: "Hubungi tim kami untuk konsultasi gratis dan penjelasan detail"
+
+STEP 3:
+Number: "03"
+Title: "Daftar & Bayar"
+Description: "Lengkapi dokumen dan lakukan pembayaran dengan sistem yang fleksibel"
+
+STEP 4:
+Number: "04"
+Title: "Berangkat"
+Description: "Ikuti manasik dan persiapan, lalu berangkat menunaikan ibadah"
+```
+
+---
+
+### **SECTION 7: TESTIMONI**
+
+**Requirements:**
+- 3 testimonial cards
+- Grid layout (1 kolom mobile, 3 kolom desktop)
+- Photo placeholder + nama + testimoni
+- Rating stars (5 bintang)
+
+**Content:**
+```
+TESTIMONI 1:
+Photo: [placeholder avatar]
+Name: "Ibu Siti Rahmawati"
+Location: "Jakarta"
+Rating: ★★★★★
+Text: "Alhamdulillah, pengalaman umroh dengan Barokah Journey sangat berkesan. Pelayanan maksimal, pembimbing yang sabar, dan fasilitas hotel yang nyaman. Semua terorganisir dengan baik. Terima kasih!"
+
+TESTIMONI 2:
+Photo: [placeholder avatar]
+Name: "Bapak Ahmad Fauzi"
+Location: "Surabaya"
+Rating: ★★★★★
+Text: "Saya sangat puas dengan paket haji plus dari Barokah Journey. Hotelnya dekat dengan Masjidil Haram, makanannya enak, dan pembimbingnya sangat membantu. Sangat recommended!"
+
+TESTIMONI 3:
+Photo: [placeholder avatar]
+Name: "Ibu Nur Hasanah"
+Location: "Bandung"
+Rating: ★★★★★
+Text: "Terima kasih Barokah Journey, ibadah umroh saya lancar dan nyaman. Tim yang profesional dan ramah membuat perjalanan spiritual ini sangat bermakna. InsyaAllah akan umroh lagi bersama kalian!"
+```
+
+---
+
+### **SECTION 8: GALERI FOTO**
+
+**Requirements:**
+- 6 foto dalam grid
+- Responsive (2 kolom mobile, 3 kolom desktop)
+- Lightbox effect on click (optional)
+- Image placeholders dengan caption
+
+**Content:**
+```
+Photos:
+1. "Ka'bah saat Thawaf"
+2. "Masjid Nabawi"
+3. "Jamaah saat Sa'i"
+4. "Hotel view Ka'bah"
+5. "Ziarah Jabal Rahmah"
+6. "Jamaah bersama pembimbing"
+
+(Gunakan placeholder image service atau solid color untuk demo)
+```
+
+---
+
+### **SECTION 9: FAQ**
+
+**Requirements:**
+- Accordion-style FAQ (collapsible)
+- Minimal 6 pertanyaan
+- JavaScript untuk toggle open/close
+
+**Content:**
+```
+Q1: "Apa saja dokumen yang diperlukan untuk mendaftar umroh?"
+A1: "Dokumen yang diperlukan: KTP, Kartu Keluarga, Paspor (minimal berlaku 8 bulan), Pas foto ukuran 4x6 (10 lembar), Buku nikah (untuk pasangan), dan Surat keterangan mahram (untuk wanita)."
+
+Q2: "Berapa lama waktu pemrosesan visa umroh?"
+A2: "Pemrosesan visa umroh biasanya memakan waktu 7-14 hari kerja setelah semua dokumen lengkap. Kami akan menginformasikan perkembangannya secara berkala."
+
+Q3: "Apakah ada sistem pembayaran cicilan?"
+A3: "Ya, kami menyediakan sistem pembayaran cicilan hingga 6x tanpa bunga untuk memudahkan jamaah. Hubungi customer service kami untuk informasi lebih lanjut."
+
+Q4: "Apa yang membedakan paket ekonomis dengan paket VIP?"
+A4: "Perbedaan utama terletak pada kelas hotel (jarak ke masjid), maskapai penerbangan, jumlah peserta per grup, dan fasilitas tambahan seperti city tour dan ziarah."
+
+Q5: "Apakah pembimbing berbahasa Indonesia?"
+A5: "Ya, semua pembimbing kami adalah ustadz Indonesia yang berpengalaman dan lulusan universitas ternama di Timur Tengah."
+
+Q6: "Bagaimana jika ada jamaah yang sakit selama perjalanan?"
+A6: "Kami menyediakan asuransi perjalanan dan tim medis on-call 24 jam. Jamaah akan mendapat penanganan medis terbaik jika diperlukan."
+```
+
+---
+
+### **SECTION 10: CTA FINAL**
+
+**Requirements:**
+- Full-width section dengan background color/gradient
+- Large heading
+- CTA buttons
+- WhatsApp & Phone icons
+
+**Content:**
+```
+Heading: "Siap Mewujudkan Impian Ibadah Anda?"
+Subheading: "Hubungi kami sekarang untuk konsultasi gratis dan dapatkan penawaran terbaik"
+
+CTA Buttons:
+1. "Hubungi via WhatsApp" (primary button - open WhatsApp)
+2. "Telepon Sekarang" (secondary button - tel: link)
+
+Contact Info:
+WhatsApp: +62 812-3456-7890
+Phone: (021) 1234-5678
+```
+
+---
+
+### **SECTION 11: FOOTER**
+
+**Requirements:**
+- 4 kolom layout (1 kolom di mobile)
+- Company info, quick links, contact, social media
+- Copyright notice
+
+**Content:**
+```
+COLUMN 1: Tentang Kami
+Logo: "Barokah Journey"
+Description: "Travel umroh dan haji terpercaya sejak 2015. Berizin resmi Kemenag dengan akreditasi A, siap melayani perjalanan ibadah Anda dengan sepenuh hati."
+
+COLUMN 2: Link Cepat
+- Beranda
+- Paket Umroh
+- Paket Haji
+- Tentang Kami
+- Testimoni
+- Kontak
+
+COLUMN 3: Kontak
+Address: "Jl. Raya Condet No. 123, Jakarta Timur 13730"
+Phone: "(021) 1234-5678"
+WhatsApp: "+62 812-3456-7890"
+Email: "info@barokahjourney.com"
+Jam Operasional: "Senin - Jumat: 08.00 - 17.00 WIB"
+
+COLUMN 4: Ikuti Kami
+- Facebook
+- Instagram
+- YouTube
+- Twitter/X
+
+Legal:
+"Legalitas: PPIU Kemenag No. U.xxx/2020 | Akreditasi A"
+
+Copyright: "© 2025 Barokah Journey. All rights reserved."
+```
+
+---
+
+## **5. INTERACTIVE FEATURES**
+
+### **5.1 Navigation**
+```javascript
+// Smooth scroll untuk internal links
+// Sticky header on scroll
+// Mobile hamburger menu toggle
+// Active state pada menu saat scroll
+```
+
+### **5.2 FAQ Accordion**
+```javascript
+// Toggle open/close untuk setiap FAQ item
+// Hanya satu item terbuka pada satu waktu (optional)
+// Smooth transition animation
+```
+
+### **5.3 WhatsApp Integration**
+```javascript
+// CTA buttons membuka WhatsApp dengan pre-filled message
+// Format: https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20dengan%20paket%20umroh
+```
+
+### **5.4 Form Interaction** (Optional - untuk future development)
+```javascript
+// Validation untuk contact form
+// Success/error messages
+// Loading states
+```
+
+---
+
+## **6. RESPONSIVE BREAKPOINTS**
+
+```
+Mobile: 0-640px (sm)
+Tablet: 641-1024px (md-lg)
+Desktop: 1025px+ (xl-2xl)
+
+Adjustments:
+- Mobile: Stack sections vertically, single column
+- Tablet: 2 columns for cards, adjusted padding
+- Desktop: Multi-column layouts, max-width container
+```
+
+---
+
+## **7. SEO REQUIREMENTS**
+
+### **7.1 Meta Tags**
+```html
+<title>Barokah Journey - Travel Umroh & Haji Terpercaya | Berizin Resmi Kemenag</title>
+<meta name="description" content="Travel umroh dan haji terpercaya dengan lisensi resmi Kemenag. Paket mulai 24 juta, hotel bintang 5, pembimbing berpengalaman. Konsultasi gratis!">
+<meta name="keywords" content="umroh, haji, travel umroh, travel haji, paket umroh, paket haji, umroh murah, haji plus, umroh Jakarta">
+```
+
+### **7.2 Structured Data**
+```html
+<!-- Organization Schema -->
+<!-- LocalBusiness Schema -->
+<!-- Product/Offer Schema untuk paket -->
+```
+
+### **7.3 Semantic HTML**
+- Proper heading hierarchy (H1, H2, H3)
+- Alt text untuk semua images
+- ARIA labels untuk accessibility
+
+---
+
+## **8. ASSETS REQUIREMENTS**
+
+### **8.1 Images Needed**
+```
+1. Hero background: Ka'bah/Masjidil Haram (1920x1080px)
+2. Icon set: 6 feature icons (SVG atau icon font)
+3. Testimonial avatars: 3 photos (100x100px circle)
+4. Gallery photos: 6 photos (600x400px)
+5. Logo: Company logo (optional, bisa text-based)
+```
+
+### **8.2 Placeholder Strategy**
+```
+Untuk development:
+- Background: Linear gradients atau solid colors
+- Icons: Tailwind CSS icons atau Unicode emoji
+- Photos: https://placehold.co/ atau https://picsum.photos/
+- Avatars: Initials dalam circle dengan background color
+```
+
+---
+
+## **9. IMPLEMENTATION NOTES**
+
+### **9.1 File Structure**
+```
+index.html (Single file HTML)
+- Embedded CSS (Tailwind via CDN)
+- Embedded JavaScript (vanilla JS di akhir body)
+```
+
+### **9.2 CDN Links**
+```html
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Optional: Font (Google Fonts) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+```
+
+### **9.3 Code Quality**
+- Clean, readable code
+- Comments untuk setiap section
+- Consistent naming conventions
+- No external dependencies selain Tailwind CDN
+
+---
+
+## **10. DELIVERABLES**
+
+### **Final Output:**
+1. **Single HTML file** (`index.html`) yang berisi:
+   - Complete HTML structure
+   - Inline Tailwind CSS classes
+   - Embedded JavaScript untuk interactivity
+   - Ready to deploy (buka langsung di browser)
+
+2. **Features Included:**
+   - ✅ Responsive design (mobile-first)
+   - ✅ Smooth scroll navigation
+   - ✅ FAQ accordion
+   - ✅ WhatsApp integration
+   - ✅ Mobile hamburger menu
+   - ✅ Sticky header
+   - ✅ Professional styling dengan Tailwind
+   - ✅ SEO-friendly structure
+
+---
+
+## **11. SUCCESS METRICS** (Post-Launch)
+
+```
+- Conversion rate target: 3-5%
+- Average session duration: > 2 minutes
+- Bounce rate: < 50%
+- Mobile traffic: 60-70%
+- WhatsApp click-through rate: > 10%
+```
+
+---
+
+## **12. FUTURE ENHANCEMENTS** (V2.0)
+
+- Online booking system dengan database
+- Payment gateway integration
+- Admin dashboard untuk manage paket
+- Blog section untuk artikel tips ibadah
+- Multi-language support (Arab, English)
+- Live chat integration
+- Video testimonials
+- Virtual tour 360° hotel
+
+---
+
+## **NOTES FOR AI AGENT:**
+
+```
+Instruksi khusus untuk implementasi:
+
+1. Buat SATU file HTML lengkap (index.html)
+2. Gunakan Tailwind CSS via CDN (jangan install via npm)
+3. Semua JavaScript inline di dalam <script> tag di akhir body
+4. Gunakan placeholder untuk images (https://placehold.co/WIDTHxHEIGHT)
+5. Pastikan responsive di semua device
+6. Smooth scroll untuk navigasi internal
+7. FAQ menggunakan JavaScript accordion (expand/collapse)
+8. WhatsApp button dengan format link yang benar
+9. Color scheme: Green (#059669) sebagai primary, Gold (#FCD34D) sebagai accent
+10. Buat clean dan professional, siap production
+
+Output yang diharapkan:
+- Code lengkap dan bisa langsung dijalankan
+- Tidak perlu setup atau instalasi apapun
+- Copy-paste langsung ke file .html dan buka di browser
+```
+
+---
+
+**END OF PRD**
+
+---
+
+Silakan copy PRD ini dan berikan ke AI agent untuk diimplementasikan! PRD ini sudah sangat lengkap dan detail, mencakup semua spesifikasi yang dibutuhkan untuk membuat landing page travel umroh dan haji yang profesional.
